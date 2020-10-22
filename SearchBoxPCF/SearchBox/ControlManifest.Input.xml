@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="im" constructor="SearchBoxPCF" version="0.0.1" display-name-key="SearchBoxPCF" description-key="SearchBoxPCF description" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="ExistingValue" display-name-key="ExistingValue" description-key="Existing value in the field" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="Json" display-name-key="Json" description-key="Json Input key/displayValue/searchValue/Fav" of-type="Multiple" usage="bound" required="false" />
+     <property name="searchTabTitle" display-name-key="searchTabTitle" description-key="Search Tab Title" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="searchTabFavTitle" display-name-key="searchTabFavTitle" description-key="Favourites Tab Title" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="listTabFavTitle" display-name-key="listTabFavTitle" description-key="Favourites column Title" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="noSuggestions" display-name-key="noSuggestions" description-key="No Suggestions Message" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="searchTitle" display-name-key="searchTitle" description-key="Search Placeholder Message" of-type="SingleLine.Text" usage="bound" required="false"  /> 
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
