@@ -21,3 +21,5 @@ Key: unique identifier
 displayValue: The value in the list or search
 SearchValue: The selected value.
 Fav: Boolean value that indicates if this entry should be in the Favourites Tab.
+
+https://user-images.githubusercontent.com/4220292/96868292-3259a700-1444-11eb-8ffd-191eb9f6bc0f.png
