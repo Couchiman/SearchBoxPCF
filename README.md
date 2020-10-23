@@ -1,7 +1,7 @@
 # SearchBoxPCF
 A Search Box PCF control based on React and Office UI
 
-The basic idea of this control is to be an addition to subject trees or entities with hierarchies that grow a lot and help users to find the option or reduce long list controls as the example that is provided with the control.
+The basic idea of this control is to be an addition to subject trees or entities with hierarchies that grow a lot and help users to find the option or reduce the effort to search in long list as the example that is provided.
 
 ## Basic Configuration
 
