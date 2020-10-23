@@ -3,7 +3,7 @@ A Search Box PCF control based on React and Office UI
 
 The basic idea of this control is to be an addition to subject trees or entities with hierarchies that grow a lot and help users to find the option or reduce long list controls as the example that is provided with the control.
 
-Basic Configuration
+## Basic Configuration
 
 * ExistingValue: This is bound field we will use as input/output in Dynamics. No need for initial values.
 * Json: This is the JSON data with the configuration. If we dont include data, sample data is shown.
@@ -13,7 +13,7 @@ Basic Configuration
 * noSuggestions: Message that will be shown by the Searchbox control when nothing is found.
 * searchTitle: Message inside the SearchBox like "Search..."
 
-JSON Format
+## JSON Format
 
 [{"key":1,"displayValue":"Alabama","searchValue":"Alabama","fav":true},{"key":2,"displayValue":"Montreal","searchValue":"Montreal","fav":false}]
 
@@ -22,15 +22,15 @@ displayValue: The value in the list or search
 SearchValue: The selected value.
 Fav: Boolean value that indicates if this entry should be in the Favourites Tab.
 
-Image Capture 
+## Image Capture 
 
-https://user-images.githubusercontent.com/4220292/96868292-3259a700-1444-11eb-8ffd-191eb9f6bc0f.png
+![alt text](https://user-images.githubusercontent.com/4220292/96868292-3259a700-1444-11eb-8ffd-191eb9f6bc0f.png "Screenshot 1")
 
-Video:
+## Video:
 
 https://www.youtube.com/watch?v=tmJTu13ujkQ
 
-Building & Testing
+## Building & Testing
 
 Once you've donlowaded the code, navigate to the SearhBox PCF folder and run the following command from the terminal:
 
