@@ -38,5 +38,5 @@ Once you've donlowaded the code, navigate to the SearhBox PCF folder and run the
 This will install all the dependencies.
 
 `npm run start`
-This should bootstrap the component and run it to allow you to see the component running and debug if required.
+This should bootstrap the component and run it to allow you to see the component running.
 
