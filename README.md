@@ -30,3 +30,13 @@ Video:
 
 https://www.youtube.com/watch?v=tmJTu13ujkQ
 
+Building & Testing
+
+Once you've donlowaded the code, navigate to the SearhBox PCF folder and run the following command from the terminal:
+
+npm install
+This will install all the dependencies (and make take a minute or two). Then run:
+
+npm run start
+This should bootstrap the component and run the harness to allow you to see the component running and debug if required.
+
